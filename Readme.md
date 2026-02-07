@@ -7,10 +7,10 @@ and remote device management using Telnet and SSH across multiple routers.
 ## 📸 Network Topology Preview
 
 ### 🗺 Topology Diagram
-![Topology](assets/1.png)
+![Topology](assets/topology.png)
 
 ### Live Packet Flow (Simulation Mode)
-![Simulation](assets/2.gif)
+![Simulation](assets/simulation.gif)
 
  - Packets are shown moving hop-by-hop using ICMP in Simulation Mode.
 ---
@@ -37,9 +37,8 @@ Static-Routing-Packet-Tracer/
 ├── project.pkt
 │
 ├── assets/
-│   └── screenshots/
-│       ├── topology.png
-│       ├── simulation.png
+│   ├── topology.png
+│   └── simulation.png
 │
-├── README.md
+└── README.md
 ```

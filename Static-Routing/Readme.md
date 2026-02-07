@@ -27,7 +27,7 @@ The following credentials are configured identically on every router for consist
    ```
   - password
     ```username:
-       cisco
+    cisco
     ``` 
 
 ## 📂 Project Structure

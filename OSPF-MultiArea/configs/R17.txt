@@ -1,0 +1,10 @@
+hostname R17
+interface Ethernet0/0
+ ip address 192.168.11.1 255.255.255.0
+interface Ethernet0/2
+ ip address 192.168.9.3 255.255.255.0
+ ip ospf priority 3
+
+router ospf 100
+ network 192.168.9.0 0.0.0.255 area 122
+ network 192.168.11.0 0.0.0.255 area 122

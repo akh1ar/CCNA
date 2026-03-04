@@ -1,0 +1,13 @@
+hostname R3
+interface Ethernet0/0
+ ip address 192.168.9.1 255.255.255.0
+ ip ospf priority 5
+interface Ethernet0/1
+ ip address 192.168.2.2 255.255.255.0
+interface Ethernet0/2
+ ip address 192.168.3.2 255.255.255.0
+
+router ospf 100
+ network 192.168.2.0 0.0.0.255 area 0
+ network 192.168.3.0 0.0.0.255 area 0
+ network 192.168.9.0 0.0.0.255 area 122

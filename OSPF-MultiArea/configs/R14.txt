@@ -1,0 +1,7 @@
+hostname R14
+interface Ethernet0/0
+ ip address 192.168.10.2 255.255.255.0
+ ip ospf priority 10
+
+router ospf 100
+ network 192.168.10.0 0.0.0.255 area 123

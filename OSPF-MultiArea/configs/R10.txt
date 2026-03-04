@@ -1,0 +1,7 @@
+hostname R10
+interface Ethernet0/1
+ ip address 192.168.7.2 255.255.255.0
+ ip ospf priority 5
+
+router ospf 100
+ network 192.168.7.0 0.0.0.255 area 121

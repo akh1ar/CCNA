@@ -1,0 +1,6 @@
+hostname R20
+interface Ethernet0/2
+ ip address 192.168.11.3 255.255.255.0
+
+router ospf 100
+ network 192.168.11.0 0.0.0.255 area 122

@@ -1,0 +1,9 @@
+hostname R7
+interface Ethernet0/0
+ ip address 192.168.7.1 255.255.255.0
+interface Ethernet0/1
+ ip address 192.168.5.3 255.255.255.0
+
+router ospf 100
+ network 192.168.5.0 0.0.0.255 area 121
+ network 192.168.7.0 0.0.0.255 area 121
